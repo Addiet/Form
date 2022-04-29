@@ -2,17 +2,17 @@
 <html>
     <head>
         <title>Funny Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1>Addies page</h1>
+        <h1>Info form</h1>
 
         <form action="">
             <label>Your Name</label><br>
-            <input type="text"is="username" name="username"><br>
+            <input type="text"is="username" name="username"><br><br>
             
             <input type="radio" id="13-18" name="13-18" value="13-18"> <label> 13-18 years old</label>
             <input type="radio" id="19-25" name="19-25" value="19-25"> <label> 19-25 years old</label>
-            <input type="submit" value ="Submit"> 
             <h4>What forms of transportation have you taken?</h4>
             <input type="checkbox" id="Boat" name="Boat" <label> Boat</label><br>
             <input type="checkbox" id="Submarine" name="Submarine" <label> Submarine</label><br>
@@ -20,7 +20,7 @@
             <input type="checkbox" id="Tractor" name="Tractor" <label> Tractor</label><br>
             <input type="checkbox" id="Car" name="Car" <label> Car</label><br>
             <input type="checkbox" id="Plane" name="Plane" <label> Plane</label><br>
-            <input type="checkbox" id="Rocket" name="Rocket" <label> Rocket</label><br>
+            <input type="checkbox" id="Rocket" name="Rocket" <label> Rocket</label><br><br>
             <label for="colors">Choose a color:</label>
             <select id="colors" name="colors">
             <option value="Red">Red</option>
@@ -31,8 +31,13 @@
             <option value="Purple">Purple</option>
             <option value="Pink">Pink</option>
             <option value="Brown">Brown</option>
-            </select>
-
+             </select> 
+            <h4>What are you doing this weekend?</h4><br>
+            <textArea name="animal" rows="10" cols="30"></textArea><br><br>
+            <label for="birthday">Birthday:</label><br>
+            <input type="date" id="birthday" name="birthday"><br><br>
+             <input type="submit" value ="Submit">
+             <h2>Thank you!</h2>
 
 
         </form>
